@@ -12,8 +12,7 @@ Bu proje, Udemy üzerinde yer alan ["Spring ve React ile Web Uygulaması Gelişt
 
 1. Projeyi clone'layın:
 ```bash
-git clone https://github.com/Atakan-Emre/SpringBootWebUygulamasi.git`
-
+git clone https://github.com/Atakan-Emre/SpringBootWebUygulamasi.git
 
 
 2. Spring Boot uygulamasını başlatın:
