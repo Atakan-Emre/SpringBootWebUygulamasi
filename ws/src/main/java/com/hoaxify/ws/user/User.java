@@ -19,18 +19,18 @@ public class User {
 	@GeneratedValue
 	private long id;
 	
-	@NotNull(message="{hoaxify.constraint.username.NotNull.message}")
+	@NotNull(message = "{hoaxify.constraint.username.NotNull.message}")
 	@Size(min = 4, max=255)
 	@UniqueUsername
 	private String username;
-	//Yorum satırı
-	@NotNull(message="{hoaxify.constraint.displayname.NotNull.message}")
+	
+	@NotNull(message = "{hoaxify.constraint.displayname.NotNull.message}")
 	@Size(min = 4, max=255)
 	private String displayName;
 	
 	@NotNull
 	@Size(min = 8, max=255)
-	@Pattern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).*$", message="{hoaxify.constrain.password.Pattern.message}")
+	@Pattern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).*$", message = "{hoaxify.constraint.password.Pattern.message}")
 	private String password;
 	
 }
