@@ -13,8 +13,9 @@ public class WsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(WsApplication.class, args);
 	}
+
 	@Bean
-	CommandLineRunner createInitialUsers(UserService userService) {
+	public CommandLineRunner createInitialUsers(UserService userService) {
 		return (args) -> {
 			User user = new User();
 			user.setUsername("user1");
