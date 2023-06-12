@@ -1,16 +1,16 @@
-#spring:
-# datasource:
-#   url: jdbc:h2:./devdb
-#   username: sa
-#   password:
-# jpa:
-#   hibernate:
-#   ddl-auto: update
- 
 spring:
+  datasource:
+    url: jdbc:h2:file:./devdb
+    username: sa
+    password: 
   jpa:
+    hibernate:
+      ddl-auto: update
     properties:
       jakarta:
         persistence:
-         validation:
-          mode: none
+          validation:
+            mode: none
+logging:
+  level:
+    org.springframework: DEBUG
