@@ -1,5 +1,7 @@
 package com.hoaxify.ws.user;
 
+import com.hoaxify.ws.services.UserServiceImpl;
+import com.hoaxify.ws.services.UserServices;
 import jakarta.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +15,7 @@ import com.hoaxify.ws.shared.GenericResponse;
 public class UserController {
 	
 	@Autowired
-	UserService userService;
+	UserServices userService;
 	
 	@PostMapping("/api/1.0/users")
 	public GenericResponse createUser(@Valid @RequestBody User user) {		
