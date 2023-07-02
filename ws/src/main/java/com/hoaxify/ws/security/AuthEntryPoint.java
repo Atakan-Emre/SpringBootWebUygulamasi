@@ -1,4 +1,4 @@
-package com.hoaxify.ws.configuration;
+package com.hoaxify.ws.security;
 
 import java.io.IOException;
 

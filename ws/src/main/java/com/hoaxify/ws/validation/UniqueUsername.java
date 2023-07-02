@@ -1,4 +1,4 @@
-package com.hoaxify.ws.user;
+package com.hoaxify.ws.validation;
 
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;

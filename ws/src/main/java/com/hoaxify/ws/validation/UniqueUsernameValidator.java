@@ -1,5 +1,7 @@
-package com.hoaxify.ws.user;
+package com.hoaxify.ws.validation;
 
+import com.hoaxify.ws.model.User;
+import com.hoaxify.ws.repository.UserRepository;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 

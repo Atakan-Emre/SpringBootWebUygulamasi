@@ -1,12 +1,12 @@
 package com.hoaxify.ws.services;
 
-import org.apache.catalina.User;
+import com.hoaxify.ws.model.User;
 
 public interface UserServices {
 
 
 
-    public void save(com.hoaxify.ws.user.User user);
+    public void save(User user);
 
 
     }

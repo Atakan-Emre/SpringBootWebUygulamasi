@@ -1,7 +1,7 @@
 package com.hoaxify.ws.services;
 
-import com.hoaxify.ws.user.User;
-import com.hoaxify.ws.user.UserRepository;
+import com.hoaxify.ws.model.User;
+import com.hoaxify.ws.repository.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.hoaxify.ws.configuration;
+package com.hoaxify.ws.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

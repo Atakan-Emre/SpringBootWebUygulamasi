@@ -1,6 +1,6 @@
 package com.hoaxify.ws;
 
-import com.hoaxify.ws.user.User;
+import com.hoaxify.ws.model.User;
 import com.hoaxify.ws.services.UserServiceImpl;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

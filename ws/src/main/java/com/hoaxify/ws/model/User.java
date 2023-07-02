@@ -1,7 +1,8 @@
-package com.hoaxify.ws.user;
+package com.hoaxify.ws.model;
 
 import java.util.Collection;
 
+import com.hoaxify.ws.validation.UniqueUsername;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -15,7 +16,7 @@ import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import com.hoaxify.ws.shared.Views;
+import com.hoaxify.ws.api.Views;
 
 import lombok.Data;
 

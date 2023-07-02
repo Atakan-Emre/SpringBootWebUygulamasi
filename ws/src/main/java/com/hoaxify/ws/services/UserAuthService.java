@@ -1,4 +1,4 @@
-package com.hoaxify.ws.configuration;
+package com.hoaxify.ws.services;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,8 +7,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.hoaxify.ws.user.User;
-import com.hoaxify.ws.user.UserRepository;
+import com.hoaxify.ws.model.User;
+import com.hoaxify.ws.repository.UserRepository;
 
 @Service
 public class UserAuthService implements UserDetailsService{

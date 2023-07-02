@@ -1,4 +1,4 @@
-package com.hoaxify.ws.error;
+package com.hoaxify.ws.api;
 
 import java.util.HashMap;
 import java.util.List;

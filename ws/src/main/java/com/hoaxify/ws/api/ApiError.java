@@ -1,11 +1,10 @@
-package com.hoaxify.ws.error;
+package com.hoaxify.ws.api;
 
 import java.util.Date;
 import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonView;
-import com.hoaxify.ws.shared.Views;
 import lombok.Data;
 
 @Data
